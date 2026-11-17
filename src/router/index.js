@@ -43,12 +43,13 @@ const router = createRouter({
                 {
                     path: 'categories',
                     name: 'categories',
-                    component: () => import('../views/WorkspacePlaceholderView.vue'),
+                    component: () => import('../views/CategoriesView.vue'),
                     meta: {
                         title: 'Categories',
                         navigation: true,
                         navigationOrder: 3,
                         icon: 'categories',
+                        roles: ['Admin', 'Manager'],
                     },
                 },
                 {
