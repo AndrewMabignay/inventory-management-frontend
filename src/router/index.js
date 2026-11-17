@@ -32,7 +32,7 @@ const router = createRouter({
                 {
                     path: 'products',
                     name: 'products',
-                    component: () => import('../views/WorkspacePlaceholderView.vue'),
+                    component: () => import('../views/ProductsView.vue'),
                     meta: {
                         title: 'Products',
                         navigation: true,
